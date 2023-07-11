@@ -1,0 +1,57 @@
+
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-desc{
+ text-align: center;
+}
+.feature-img {
+ display:flex;
+text-align: center;
+justify-content: center;
+  
+
+}
+.feature-img div img{
+    width: 300px;
+    height: 450px;
+    
+}
+.sells-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery-desc{
+    text-align: center;
+}
+.gallery-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img{
+    margin: 0 6px;
+}
+.deals{
+    text-align: center;
+    margin: 30px 0;
+}
+.deals-section{
+    position: relative;
+}
+.deals-desc{
+    position: absolute;
+    top: 30%;
+   left: 43%;
+
+
+}
+.footer{
+    text-align: center;
+}
