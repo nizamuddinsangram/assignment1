@@ -49,6 +49,13 @@ ul {
 .featured-desc{
  text-align: center;
 }
+.featured-heading{
+    font-size: 30px;
+}
+.featured-paragraph{
+    font-size: 20px;
+    margin: 5px 0;
+}
 .feature-img  {
  display:flex;
 text-align: center;
@@ -64,6 +71,9 @@ justify-content: center;
     height: 450px;
   
     
+}
+.text{
+    padding: 20px;
 }
 .div1{
     background-color: rgba(167, 33, 98, 0.2);
@@ -87,7 +97,7 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin: 20px 0;
     padding: 10px 200px;
     background-color:rgba(229, 84, 115, 0.1);
 
