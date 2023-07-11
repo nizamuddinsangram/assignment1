@@ -1,30 +1,99 @@
 
 
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #df8296;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #d1294e;
+  }
+  
+  .active {
+    background-color: #d40835;
+  }
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 100px;
+    background-color:rgba(229, 84, 115, 0.2);
+  
+    
+}
+.bannerh{
+    font-size: 75px;
+}
+.btn{
+    background-color: #E55473;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+
 }
 .featured-desc{
  text-align: center;
 }
-.feature-img {
+.feature-img  {
  display:flex;
 text-align: center;
 justify-content: center;
   
 
 }
+.feature-img div{
+    margin: 0 20px;
+}
 .feature-img div img{
     width: 300px;
     height: 450px;
+  
     
 }
+.div1{
+    background-color: rgba(167, 33, 98, 0.2);
+    border-radius: 150px 150px 0 0;
+   display: flex;
+   flex-direction: column;
+
+}.div2{
+    background-color: rgba(5, 151, 160, 0.1);
+    border-radius: 150px 150px 0 0;
+    display: flex;
+   flex-direction: column;
+}.div3{
+    background-color: rgba(71, 125, 17, 0.1);
+    border-radius: 150px 150px 0 0;
+    display: flex;
+   flex-direction: column;
+}
+
 .sells-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 10px 200px;
+    background-color:rgba(229, 84, 115, 0.1);
+
+}
+.sells-header{
+    font-size: 40px;
 }
 .gallery-desc{
     text-align: center;
@@ -34,6 +103,13 @@ justify-content: center;
     justify-content: center;
     align-items: center;
    
+}
+.gallery-heading{
+    font-size: 40px;
+    font-style: italic;
+}
+.gallery-paragrap{
+    font-size: 20px;
 }
 .img{
     margin: 0 6px;
@@ -45,6 +121,12 @@ justify-content: center;
 .deals-section{
     position: relative;
 }
+.deals-heading{
+    font-size: 40px;
+}
+.deals-p{
+    font-size: 20px;
+}
 .deals-desc{
     position: absolute;
     top: 30%;
@@ -52,6 +134,22 @@ justify-content: center;
 
 
 }
+.input{
+    border: 0;
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 4px;
+
+}
 .footer{
     text-align: center;
+    background-color: #111010;
+    color: white;
+    padding: 90px 0;
+}
+.flower-d{
+    color: #E55473;
+}
+.footer-paragrap{
+    font-size: 20px;
 }
